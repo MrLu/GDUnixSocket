@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08FF4CAD22D1CE780001CAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CAC22D1CE780001CAC3 /* AppDelegate.m */; };
+		08FF4CB022D1CE780001CAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CAF22D1CE780001CAC3 /* ViewController.m */; };
+		08FF4CB222D1CE7A0001CAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FF4CB122D1CE7A0001CAC3 /* Assets.xcassets */; };
+		08FF4CB522D1CE7A0001CAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FF4CB322D1CE7A0001CAC3 /* Main.storyboard */; };
+		08FF4CB822D1CE7A0001CAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CB722D1CE7A0001CAC3 /* main.m */; };
+		08FF4CC522D1CF8F0001CAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CC422D1CF8F0001CAC3 /* AppDelegate.m */; };
+		08FF4CC822D1CF8F0001CAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CC722D1CF8F0001CAC3 /* ViewController.m */; };
+		08FF4CCA22D1CF8F0001CAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FF4CC922D1CF8F0001CAC3 /* Assets.xcassets */; };
+		08FF4CCD22D1CF8F0001CAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FF4CCB22D1CF8F0001CAC3 /* Main.storyboard */; };
+		08FF4CD022D1CF8F0001CAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CCF22D1CF8F0001CAC3 /* main.m */; };
+		08FF4CF322D1D3350001CAC3 /* GDUnixSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CEE22D1D3340001CAC3 /* GDUnixSocketClient.m */; };
+		08FF4CF422D1D3350001CAC3 /* GDUnixSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CEF22D1D3340001CAC3 /* GDUnixSocket.m */; };
+		08FF4CF522D1D3350001CAC3 /* GDUnixSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CF022D1D3340001CAC3 /* GDUnixSocketServer.m */; };
+		08FF4CFE22D1D36D0001CAC3 /* GDUnixSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CF922D1D36D0001CAC3 /* GDUnixSocketClient.m */; };
+		08FF4CFF22D1D36D0001CAC3 /* GDUnixSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CFA22D1D36D0001CAC3 /* GDUnixSocket.m */; };
+		08FF4D0022D1D36D0001CAC3 /* GDUnixSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4CFB22D1D36D0001CAC3 /* GDUnixSocketServer.m */; };
+		08FF4D0922D1D37A0001CAC3 /* GDUnixSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4D0422D1D37A0001CAC3 /* GDUnixSocketClient.m */; };
+		08FF4D0A22D1D37A0001CAC3 /* GDUnixSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4D0522D1D37A0001CAC3 /* GDUnixSocket.m */; };
+		08FF4D0B22D1D37A0001CAC3 /* GDUnixSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF4D0622D1D37A0001CAC3 /* GDUnixSocketServer.m */; };
 		9A0130DA1C6BB97900795EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0130D91C6BB97900795EA8 /* main.m */; };
 		9A0130DD1C6BB97900795EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0130DC1C6BB97900795EA8 /* AppDelegate.m */; };
 		9A0130E01C6BB97900795EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0130DF1C6BB97900795EA8 /* ViewController.m */; };
 		9A0130E31C6BB97900795EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0130E11C6BB97900795EA8 /* Main.storyboard */; };
 		9A0130E51C6BB97900795EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0130E41C6BB97900795EA8 /* Assets.xcassets */; };
 		9A0130E81C6BB97900795EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0130E61C6BB97900795EA8 /* LaunchScreen.storyboard */; };
-		9A0131001C6BBA1300795EA8 /* GDUnixSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0130FF1C6BBA1300795EA8 /* GDUnixSocket.m */; };
-		9A0131031C6BC81500795EA8 /* GDUnixSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0131021C6BC81500795EA8 /* GDUnixSocketClient.m */; };
-		9A0131071C6BCE4200795EA8 /* GDUnixSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0131061C6BCE4200795EA8 /* GDUnixSocketServer.m */; };
 		9A01310A1C6CE5BA00795EA8 /* GDServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0131091C6CE5BA00795EA8 /* GDServerViewController.m */; };
 		9A01310D1C6CE5DB00795EA8 /* GDClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A01310C1C6CE5DB00795EA8 /* GDClientsViewController.m */; };
 		9A0131101C6CF18900795EA8 /* GDClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A01310F1C6CF18900795EA8 /* GDClientViewController.m */; };
@@ -37,6 +53,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08FF4CA922D1CE780001CAC3 /* ClinetMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinetMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FF4CAB22D1CE780001CAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08FF4CAC22D1CE780001CAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08FF4CAE22D1CE780001CAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08FF4CAF22D1CE780001CAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08FF4CB122D1CE7A0001CAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08FF4CB422D1CE7A0001CAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08FF4CB622D1CE7A0001CAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FF4CB722D1CE7A0001CAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FF4CB922D1CE7A0001CAC3 /* ClinetMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClinetMac.entitlements; sourceTree = "<group>"; };
+		08FF4CC122D1CF8F0001CAC3 /* ServerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FF4CC322D1CF8F0001CAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08FF4CC422D1CF8F0001CAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08FF4CC622D1CF8F0001CAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08FF4CC722D1CF8F0001CAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08FF4CC922D1CF8F0001CAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08FF4CCC22D1CF8F0001CAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08FF4CCE22D1CF8F0001CAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FF4CCF22D1CF8F0001CAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FF4CD122D1CF8F0001CAC3 /* ServerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ServerMac.entitlements; sourceTree = "<group>"; };
+		08FF4CEC22D1D3340001CAC3 /* GDUnixSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket.h; sourceTree = "<group>"; };
+		08FF4CED22D1D3340001CAC3 /* GDUnixSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketServer.h; sourceTree = "<group>"; };
+		08FF4CEE22D1D3340001CAC3 /* GDUnixSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketClient.m; sourceTree = "<group>"; };
+		08FF4CEF22D1D3340001CAC3 /* GDUnixSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocket.m; sourceTree = "<group>"; };
+		08FF4CF022D1D3340001CAC3 /* GDUnixSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketServer.m; sourceTree = "<group>"; };
+		08FF4CF122D1D3340001CAC3 /* GDUnixSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketClient.h; sourceTree = "<group>"; };
+		08FF4CF222D1D3340001CAC3 /* GDUnixSocket_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket_Private.h; sourceTree = "<group>"; };
+		08FF4CF722D1D36D0001CAC3 /* GDUnixSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket.h; sourceTree = "<group>"; };
+		08FF4CF822D1D36D0001CAC3 /* GDUnixSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketServer.h; sourceTree = "<group>"; };
+		08FF4CF922D1D36D0001CAC3 /* GDUnixSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketClient.m; sourceTree = "<group>"; };
+		08FF4CFA22D1D36D0001CAC3 /* GDUnixSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocket.m; sourceTree = "<group>"; };
+		08FF4CFB22D1D36D0001CAC3 /* GDUnixSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketServer.m; sourceTree = "<group>"; };
+		08FF4CFC22D1D36D0001CAC3 /* GDUnixSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketClient.h; sourceTree = "<group>"; };
+		08FF4CFD22D1D36D0001CAC3 /* GDUnixSocket_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket_Private.h; sourceTree = "<group>"; };
+		08FF4D0222D1D37A0001CAC3 /* GDUnixSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket.h; sourceTree = "<group>"; };
+		08FF4D0322D1D37A0001CAC3 /* GDUnixSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketServer.h; sourceTree = "<group>"; };
+		08FF4D0422D1D37A0001CAC3 /* GDUnixSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketClient.m; sourceTree = "<group>"; };
+		08FF4D0522D1D37A0001CAC3 /* GDUnixSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocket.m; sourceTree = "<group>"; };
+		08FF4D0622D1D37A0001CAC3 /* GDUnixSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketServer.m; sourceTree = "<group>"; };
+		08FF4D0722D1D37A0001CAC3 /* GDUnixSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocketClient.h; sourceTree = "<group>"; };
+		08FF4D0822D1D37A0001CAC3 /* GDUnixSocket_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket_Private.h; sourceTree = "<group>"; };
 		9A0130D51C6BB97900795EA8 /* GDUnixSocketExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDUnixSocketExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0130D91C6BB97900795EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0130DB1C6BB97900795EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,20 +106,12 @@
 		9A0130E91C6BB97900795EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0130EE1C6BB97900795EA8 /* GDUnixSocketExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDUnixSocketExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0130F41C6BB97900795EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A0130FE1C6BBA1300795EA8 /* GDUnixSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDUnixSocket.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9A0130FF1C6BBA1300795EA8 /* GDUnixSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDUnixSocket.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		9A0131011C6BC81500795EA8 /* GDUnixSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDUnixSocketClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9A0131021C6BC81500795EA8 /* GDUnixSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDUnixSocketClient.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		9A0131041C6BCA6300795EA8 /* GDUnixSocket_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUnixSocket_Private.h; sourceTree = "<group>"; };
-		9A0131051C6BCE4200795EA8 /* GDUnixSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDUnixSocketServer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9A0131061C6BCE4200795EA8 /* GDUnixSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDUnixSocketServer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		9A0131081C6CE5BA00795EA8 /* GDServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDServerViewController.h; sourceTree = "<group>"; };
 		9A0131091C6CE5BA00795EA8 /* GDServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDServerViewController.m; sourceTree = "<group>"; };
 		9A01310B1C6CE5DB00795EA8 /* GDClientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDClientsViewController.h; sourceTree = "<group>"; };
 		9A01310C1C6CE5DB00795EA8 /* GDClientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDClientsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		9A01310E1C6CF18900795EA8 /* GDClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDClientViewController.h; sourceTree = "<group>"; };
 		9A01310F1C6CF18900795EA8 /* GDClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDClientViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		9A01A3571C6F5EB100A2A466 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A01A3591C6F5F5200A2A466 /* GDUnixSocketTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketTests.m; sourceTree = "<group>"; };
 		9A8F3FB11C6FD4B000768D25 /* GDUnixSocketServerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUnixSocketServerTests.m; sourceTree = "<group>"; };
 		9A8F3FB51C6FD4F700768D25 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -73,6 +122,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		08FF4CA622D1CE780001CAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FF4CBE22D1CF8F0001CAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A0130D21C6BB97900795EA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +153,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FF4CAA22D1CE780001CAC3 /* ClinetMac */ = {
+			isa = PBXGroup;
+			children = (
+				08FF4D0122D1D37A0001CAC3 /* GDUnixSocket */,
+				08FF4CAB22D1CE780001CAC3 /* AppDelegate.h */,
+				08FF4CAC22D1CE780001CAC3 /* AppDelegate.m */,
+				08FF4CAE22D1CE780001CAC3 /* ViewController.h */,
+				08FF4CAF22D1CE780001CAC3 /* ViewController.m */,
+				08FF4CB122D1CE7A0001CAC3 /* Assets.xcassets */,
+				08FF4CB322D1CE7A0001CAC3 /* Main.storyboard */,
+				08FF4CB622D1CE7A0001CAC3 /* Info.plist */,
+				08FF4CB722D1CE7A0001CAC3 /* main.m */,
+				08FF4CB922D1CE7A0001CAC3 /* ClinetMac.entitlements */,
+			);
+			path = ClinetMac;
+			sourceTree = "<group>";
+		};
+		08FF4CC222D1CF8F0001CAC3 /* ServerMac */ = {
+			isa = PBXGroup;
+			children = (
+				08FF4CF622D1D36D0001CAC3 /* GDUnixSocket */,
+				08FF4CC322D1CF8F0001CAC3 /* AppDelegate.h */,
+				08FF4CC422D1CF8F0001CAC3 /* AppDelegate.m */,
+				08FF4CC622D1CF8F0001CAC3 /* ViewController.h */,
+				08FF4CC722D1CF8F0001CAC3 /* ViewController.m */,
+				08FF4CC922D1CF8F0001CAC3 /* Assets.xcassets */,
+				08FF4CCB22D1CF8F0001CAC3 /* Main.storyboard */,
+				08FF4CCE22D1CF8F0001CAC3 /* Info.plist */,
+				08FF4CCF22D1CF8F0001CAC3 /* main.m */,
+				08FF4CD122D1CF8F0001CAC3 /* ServerMac.entitlements */,
+			);
+			path = ServerMac;
+			sourceTree = "<group>";
+		};
+		08FF4CEB22D1D3340001CAC3 /* GDUnixSocket */ = {
+			isa = PBXGroup;
+			children = (
+				08FF4CEC22D1D3340001CAC3 /* GDUnixSocket.h */,
+				08FF4CED22D1D3340001CAC3 /* GDUnixSocketServer.h */,
+				08FF4CEE22D1D3340001CAC3 /* GDUnixSocketClient.m */,
+				08FF4CEF22D1D3340001CAC3 /* GDUnixSocket.m */,
+				08FF4CF022D1D3340001CAC3 /* GDUnixSocketServer.m */,
+				08FF4CF122D1D3340001CAC3 /* GDUnixSocketClient.h */,
+				08FF4CF222D1D3340001CAC3 /* GDUnixSocket_Private.h */,
+			);
+			path = GDUnixSocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		08FF4CF622D1D36D0001CAC3 /* GDUnixSocket */ = {
+			isa = PBXGroup;
+			children = (
+				08FF4CF722D1D36D0001CAC3 /* GDUnixSocket.h */,
+				08FF4CF822D1D36D0001CAC3 /* GDUnixSocketServer.h */,
+				08FF4CF922D1D36D0001CAC3 /* GDUnixSocketClient.m */,
+				08FF4CFA22D1D36D0001CAC3 /* GDUnixSocket.m */,
+				08FF4CFB22D1D36D0001CAC3 /* GDUnixSocketServer.m */,
+				08FF4CFC22D1D36D0001CAC3 /* GDUnixSocketClient.h */,
+				08FF4CFD22D1D36D0001CAC3 /* GDUnixSocket_Private.h */,
+			);
+			path = GDUnixSocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		08FF4D0122D1D37A0001CAC3 /* GDUnixSocket */ = {
+			isa = PBXGroup;
+			children = (
+				08FF4D0222D1D37A0001CAC3 /* GDUnixSocket.h */,
+				08FF4D0322D1D37A0001CAC3 /* GDUnixSocketServer.h */,
+				08FF4D0422D1D37A0001CAC3 /* GDUnixSocketClient.m */,
+				08FF4D0522D1D37A0001CAC3 /* GDUnixSocket.m */,
+				08FF4D0622D1D37A0001CAC3 /* GDUnixSocketServer.m */,
+				08FF4D0722D1D37A0001CAC3 /* GDUnixSocketClient.h */,
+				08FF4D0822D1D37A0001CAC3 /* GDUnixSocket_Private.h */,
+			);
+			path = GDUnixSocket;
+			sourceTree = SOURCE_ROOT;
+		};
 		9A0130CC1C6BB97800795EA8 = {
 			isa = PBXGroup;
 			children = (
 				9A0130D71C6BB97900795EA8 /* GDUnixSocketExample */,
 				9A0130F11C6BB97900795EA8 /* GDUnixSocketExampleTests */,
+				08FF4CAA22D1CE780001CAC3 /* ClinetMac */,
+				08FF4CC222D1CF8F0001CAC3 /* ServerMac */,
 				9A0130D61C6BB97900795EA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +245,8 @@
 			children = (
 				9A0130D51C6BB97900795EA8 /* GDUnixSocketExample.app */,
 				9A0130EE1C6BB97900795EA8 /* GDUnixSocketExampleTests.xctest */,
+				08FF4CA922D1CE780001CAC3 /* ClinetMac.app */,
+				08FF4CC122D1CF8F0001CAC3 /* ServerMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +254,7 @@
 		9A0130D71C6BB97900795EA8 /* GDUnixSocketExample */ = {
 			isa = PBXGroup;
 			children = (
-				9A0130FD1C6BB9C000795EA8 /* GDUnixSocket */,
+				08FF4CEB22D1D3340001CAC3 /* GDUnixSocket */,
 				9A0130DB1C6BB97900795EA8 /* AppDelegate.h */,
 				9A0130DC1C6BB97900795EA8 /* AppDelegate.m */,
 				9A0130DE1C6BB97900795EA8 /* ViewController.h */,
@@ -154,25 +297,43 @@
 			path = GDUnixSocketExampleTests;
 			sourceTree = "<group>";
 		};
-		9A0130FD1C6BB9C000795EA8 /* GDUnixSocket */ = {
-			isa = PBXGroup;
-			children = (
-				9A01A3571C6F5EB100A2A466 /* README.md */,
-				9A0130FE1C6BBA1300795EA8 /* GDUnixSocket.h */,
-				9A0130FF1C6BBA1300795EA8 /* GDUnixSocket.m */,
-				9A0131041C6BCA6300795EA8 /* GDUnixSocket_Private.h */,
-				9A0131011C6BC81500795EA8 /* GDUnixSocketClient.h */,
-				9A0131021C6BC81500795EA8 /* GDUnixSocketClient.m */,
-				9A0131051C6BCE4200795EA8 /* GDUnixSocketServer.h */,
-				9A0131061C6BCE4200795EA8 /* GDUnixSocketServer.m */,
-			);
-			name = GDUnixSocket;
-			path = ../../GDUnixSocket;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		08FF4CA822D1CE780001CAC3 /* ClinetMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FF4CBC22D1CE7A0001CAC3 /* Build configuration list for PBXNativeTarget "ClinetMac" */;
+			buildPhases = (
+				08FF4CA522D1CE780001CAC3 /* Sources */,
+				08FF4CA622D1CE780001CAC3 /* Frameworks */,
+				08FF4CA722D1CE780001CAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClinetMac;
+			productName = ClinetMac;
+			productReference = 08FF4CA922D1CE780001CAC3 /* ClinetMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08FF4CC022D1CF8F0001CAC3 /* ServerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FF4CD222D1CF8F0001CAC3 /* Build configuration list for PBXNativeTarget "ServerMac" */;
+			buildPhases = (
+				08FF4CBD22D1CF8F0001CAC3 /* Sources */,
+				08FF4CBE22D1CF8F0001CAC3 /* Frameworks */,
+				08FF4CBF22D1CF8F0001CAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerMac;
+			productName = ServerMac;
+			productReference = 08FF4CC122D1CF8F0001CAC3 /* ServerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9A0130D41C6BB97900795EA8 /* GDUnixSocketExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A0130F71C6BB97900795EA8 /* Build configuration list for PBXNativeTarget "GDUnixSocketExample" */;
@@ -217,6 +378,26 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Alexey Gordiyenko";
 				TargetAttributes = {
+					08FF4CA822D1CE780001CAC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = GD377ZQP64;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					08FF4CC022D1CF8F0001CAC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = GD377ZQP64;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
 					9A0130D41C6BB97900795EA8 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = YZ8JMQWB5F;
@@ -232,6 +413,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -242,11 +424,31 @@
 			targets = (
 				9A0130D41C6BB97900795EA8 /* GDUnixSocketExample */,
 				9A0130ED1C6BB97900795EA8 /* GDUnixSocketExampleTests */,
+				08FF4CA822D1CE780001CAC3 /* ClinetMac */,
+				08FF4CC022D1CF8F0001CAC3 /* ServerMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		08FF4CA722D1CE780001CAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF4CB222D1CE7A0001CAC3 /* Assets.xcassets in Resources */,
+				08FF4CB522D1CE7A0001CAC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FF4CBF22D1CF8F0001CAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF4CCA22D1CF8F0001CAC3 /* Assets.xcassets in Resources */,
+				08FF4CCD22D1CF8F0001CAC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A0130D31C6BB97900795EA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,19 +469,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		08FF4CA522D1CE780001CAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF4D0A22D1D37A0001CAC3 /* GDUnixSocket.m in Sources */,
+				08FF4CB022D1CE780001CAC3 /* ViewController.m in Sources */,
+				08FF4D0B22D1D37A0001CAC3 /* GDUnixSocketServer.m in Sources */,
+				08FF4CB822D1CE7A0001CAC3 /* main.m in Sources */,
+				08FF4D0922D1D37A0001CAC3 /* GDUnixSocketClient.m in Sources */,
+				08FF4CAD22D1CE780001CAC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FF4CBD22D1CF8F0001CAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF4CFF22D1D36D0001CAC3 /* GDUnixSocket.m in Sources */,
+				08FF4CC822D1CF8F0001CAC3 /* ViewController.m in Sources */,
+				08FF4D0022D1D36D0001CAC3 /* GDUnixSocketServer.m in Sources */,
+				08FF4CD022D1CF8F0001CAC3 /* main.m in Sources */,
+				08FF4CFE22D1D36D0001CAC3 /* GDUnixSocketClient.m in Sources */,
+				08FF4CC522D1CF8F0001CAC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A0130D11C6BB97900795EA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08FF4CF322D1D3350001CAC3 /* GDUnixSocketClient.m in Sources */,
+				08FF4CF422D1D3350001CAC3 /* GDUnixSocket.m in Sources */,
 				9A01310D1C6CE5DB00795EA8 /* GDClientsViewController.m in Sources */,
-				9A0131031C6BC81500795EA8 /* GDUnixSocketClient.m in Sources */,
 				9A01310A1C6CE5BA00795EA8 /* GDServerViewController.m in Sources */,
 				9A0130E01C6BB97900795EA8 /* ViewController.m in Sources */,
+				08FF4CF522D1D3350001CAC3 /* GDUnixSocketServer.m in Sources */,
 				9A0131101C6CF18900795EA8 /* GDClientViewController.m in Sources */,
-				9A0131071C6BCE4200795EA8 /* GDUnixSocketServer.m in Sources */,
 				9A0130DD1C6BB97900795EA8 /* AppDelegate.m in Sources */,
 				9A0130DA1C6BB97900795EA8 /* main.m in Sources */,
-				9A0131001C6BBA1300795EA8 /* GDUnixSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +534,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		08FF4CB322D1CE7A0001CAC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FF4CB422D1CE7A0001CAC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08FF4CCB22D1CF8F0001CAC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FF4CCC22D1CF8F0001CAC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		9A0130E11C6BB97900795EA8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -325,6 +569,150 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		08FF4CBA22D1CE7A0001CAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GD377ZQP64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ClinetMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ML.ClinetMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08FF4CBB22D1CE7A0001CAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GD377ZQP64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ClinetMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ML.ClinetMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		08FF4CD322D1CF8F0001CAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ServerMac/ServerMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GD377ZQP64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ServerMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ML.ServerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08FF4CD422D1CF8F0001CAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ServerMac/ServerMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GD377ZQP64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ServerMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ML.ServerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		9A0130F51C6BB97900795EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -474,6 +862,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08FF4CBC22D1CE7A0001CAC3 /* Build configuration list for PBXNativeTarget "ClinetMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FF4CBA22D1CE7A0001CAC3 /* Debug */,
+				08FF4CBB22D1CE7A0001CAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FF4CD222D1CF8F0001CAC3 /* Build configuration list for PBXNativeTarget "ServerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FF4CD322D1CF8F0001CAC3 /* Debug */,
+				08FF4CD422D1CF8F0001CAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A0130D01C6BB97800795EA8 /* Build configuration list for PBXProject "GDUnixSocketExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
